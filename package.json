@@ -1,5 +1,5 @@
 {
-  "name"        : "keeper-node",
+  "name"        : "node-keeper",
   "version"     : "0.0.1",
   "description" : "Nunux Keeper Node.js client",
   "dependencies": {
