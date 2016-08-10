@@ -21,8 +21,8 @@ class KeeperClient {
   constructor (credentials, options, onUpdateCredentials) {
     this.credentials = Object.assign({
       authSite: 'http://login.nunux.org',
-      authPath: '/auth/realms/NunuxKeeper/protocol/openid-connect/auth',
-      tokenPath: '/auth/realms/NunuxKeeper/protocol/openid-connect/token',
+      authPath: '/auth/realms/nunux.org/protocol/openid-connect/auth',
+      tokenPath: '/auth/realms/nunux.org/protocol/openid-connect/token',
       apiSite: 'http://api.nunux.org/keeper'
     }, credentials)
     this.options = Object.assign({
