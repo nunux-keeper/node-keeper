@@ -1,6 +1,6 @@
 {
   "name"        : "node-keeper",
-  "version"     : "0.0.1",
+  "version"     : "0.0.2",
   "description" : "Nunux Keeper Node.js client",
   "dependencies": {
     "request": "^2.73.0"
