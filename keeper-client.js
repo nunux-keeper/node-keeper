@@ -20,10 +20,10 @@ function base64urlDecode (str) {
 class KeeperClient {
   constructor (credentials, options, onUpdateCredentials) {
     this.credentials = Object.assign({
-      authSite: 'http://login.nunux.org',
+      authSite: 'https://login.nunux.org',
       authPath: '/auth/realms/nunux.org/protocol/openid-connect/auth',
       tokenPath: '/auth/realms/nunux.org/protocol/openid-connect/token',
-      apiSite: 'http://api.nunux.org/keeper'
+      apiSite: 'https://api.nunux.org/keeper'
     }, credentials)
     this.options = Object.assign({
       offline: true,
