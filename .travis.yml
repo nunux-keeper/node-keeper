@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js:
+- '6'
+deploy:
+  provider: npm
+  email: n.carlier@nunux.org
+  api_key:
+    secure: o7z3QeXydIixsSfTtz5/EGzMfZnEp7FdarRznhL6bZxB4OCJt+TT4WQKuOvcP/YAxqJdYsPXXK01sKHglAyQYmwNceZ3HsfyaPBmj5SQimAdKHrvFfRkXhivoRYpzLtOGdelgt254h3TJgRohFwOHuqJwkuWCOzncGO4iPPqwVIH2g6Gj4YDaaBfCeUOIR9WXcdiJIjz0YQHf7CiNlHKnCm3iC0DYquzkf5wCj6enNyDAevPCDW2bVdY5ake6uNK46khK8f3hFeGLCzC1Wg4H9bIzSS9eLMQ/sLSFiqtTXJdiap+R96rNL4W6Ys+oJ+UL9hrmzakS5ZIqn49jdsJ7vYQuv8ekriBS24u+4e72KZC1w5hsL8VQx61UATv3AqA5h8X6uRMEtXb6O7oH9lmeUbWV0NTyMOaJ1XGStBViqOR0Ji/uNh38ZZKwJh0bGAOOZ19han+uu9T+ILXHjPgd6rDCwU/YDxlOCbtyhu+k1KvHOGOMZZUTUDm3/WzZzin8IK6A5Eyl9z+OpyZyfYSmyCkC/+97plox3zFOaaZkJWRGaNNOx0KQ5hcrXd947daccK4RoUUJ1fa53R3zrvyKMmSBrtnpHl9EHuGcTEJSfVkz6fTvob6KwLw2W9JG6oJm+enYhUGjToK74GOVA14BsM+bJwzmpMlf42R/43rsJ0=
+  on:
+    tags: true
+    repo: ncarlier/node-keeper

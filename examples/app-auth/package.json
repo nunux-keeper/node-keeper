@@ -1,0 +1,22 @@
+{
+  "name": "keeper-sample-app",
+  "version": "1.0.0",
+  "description": "Sample app using the Nunux Keeper client",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Nicolas Carlier",
+    "url": "https://github.com/ncarlier"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "node-keeper": "0.1.x"
+  }
+}

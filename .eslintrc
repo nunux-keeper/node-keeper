@@ -16,7 +16,8 @@ rules:
   key-spacing: [0, { align: colon}]
 
 globals:
-  __DEV__              : false
-  __PROD__             : false
-  __DEBUG__            : false
+  it        : false
+  __DEV__   : false
+  __PROD__  : false
+  __DEBUG_  : false
 
