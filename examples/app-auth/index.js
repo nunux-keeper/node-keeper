@@ -10,10 +10,8 @@ const KeeperSDK = require('node-keeper')
 // Application Parameters - Fill in with your app's values
 // ------------------------------------------------------------------------------
 
-// const CLIENT_ID = 'YOUR CLIENT ID'
-// const CLIENT_SECRET = 'YOUR CLIENT SECRET'
-const CLIENT_ID = 'nunux-reader'
-const CLIENT_SECRET = 'db6ea247-81d1-4dba-bb23-0d4c132e32d3'
+const CLIENT_ID = 'YOUR CLIENT ID'
+const CLIENT_SECRET = 'YOUR CLIENT SECRET'
 
 // Set up Express
 const app = express()
