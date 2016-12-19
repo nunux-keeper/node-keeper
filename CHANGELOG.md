@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.2.0
+-----
+
+### Features
+
+* Update API definition (breaks compatibility with 0.1.x)
+
 0.1.0
 -----
 
