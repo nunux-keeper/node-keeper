@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ncarlier/node-keeper.svg?branch=master)](https://travis-ci.org/ncarlier/node-keeper)
+[![Build Status](https://travis-ci.org/nunux-keeper/node-keeper.svg?branch=master)](https://travis-ci.org/nunux-keeper/node-keeper)
 
 node-keeper
 ===========
